@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Count Up By</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css"> 
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Enter two numbers - one to count to and another to determine what multiple to use to get there.</h1>
+    <p>(Make sure you don't enter a non-numeric, negative value or leave a field blank)</p>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="countTo">Enter a number to count to</label>
+        <input id="countTo" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="countBy">Enter a number to count by</label>
+        <input id="countBy" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Submit!</button>
+      <p id="result">Your Result: </p>
+    </form>
+  </div>
+</body>
+</html>
