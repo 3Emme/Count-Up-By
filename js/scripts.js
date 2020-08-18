@@ -7,7 +7,7 @@ function handleInput (countTo,countBy) {
     countUp(countTo,countBy);
   }
 }
-
+//hello
 function countUp (countTo,countBy) {
   console.log(countTo,countBy)
   // let countedArray = [0];
